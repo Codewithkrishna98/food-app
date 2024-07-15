@@ -23,7 +23,7 @@ import Link from "next/link"
           
           <ul className=" text-sm m-5 p-2 list-disc text-gray-900">
                {
-                 getrecipedetails.ingredients.map((i)=><li key={i.id}>{i}</li>)
+                 getrecipedetails.ingredients.map((i)=><li >{i}</li>)
                 }
             </ul>
                 <Link href={"/recipe-route"}>Go to Back</Link>
